@@ -1,0 +1,66 @@
+body, ul{
+    margin: 0;
+}
+.top-bar{
+    background-color: #666699;
+    padding: 0.1%;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    background-color: lightblue;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 0.5% 1%;
+    display: block;
+    background-color: yellow;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: white;
+}
+
+section{
+    padding: 1%;
+    display: flex;
+}
+ 
+.left-column{
+    width: 70%;
+    padding: 2%;
+    margin-right: 25px;
+    background-color: lightgreen;
+}
+
+.right-column{
+    width:20%;
+    padding: 2%;
+    background-color: lightblue;
+}
+
+footer{
+    background-color: #321F4F;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+.active{
+    background-color: #321F4F;
+    
+}
+
+.text-white{
+    color:white;
+}
